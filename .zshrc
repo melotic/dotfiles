@@ -102,6 +102,8 @@ alias ls='exa --color=auto'
 # Define exports
 export EDITOR=vim
 export $(dbus-launch)
+# for linux-xanmod
+export _microarchitecture=99
 
 # Set shell options: http://zsh.sourceforge.net/Doc/Release/Options.html.
 setopt glob_dots     # no special treatment for file names with a leading dot
