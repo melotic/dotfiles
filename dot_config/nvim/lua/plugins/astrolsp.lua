@@ -43,6 +43,15 @@ return {
     ---@diagnostic disable: missing-fields
     config = {
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      vtsls = {
+        settings = {
+          typescript = {
+            tsserver = {
+              maxTsServerMemory = 1024 * 8,
+            },
+          },
+        },
+      },
     },
     -- customize how language servers are attached
     handlers = {

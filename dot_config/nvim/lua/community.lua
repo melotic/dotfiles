@@ -5,9 +5,15 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+
+  { import = "astrocommunity.colorscheme.catppuccin" },
+
+  -- Language Support
+  { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.zig" },
 }
